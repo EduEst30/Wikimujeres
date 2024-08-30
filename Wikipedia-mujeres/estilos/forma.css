@@ -42,7 +42,7 @@ nav ul li{
 }
 
 .columna-derecha img{
-    width: 1024px;   
+   max-width: 100%; 
 }
 
 .galeria {
