@@ -35,11 +35,31 @@ nav ul li{
 }
 
 .columna-derecha {
-    background-color: rgb(203, 203, 65);
-    padding: 10px 20px;
+    color: #fff;
+    flex: 1;
+    padding: 20px;
+    background-color: #eb8282;
 }
 
 .columna-derecha img{
-    width: 1024px;
-   
+    width: 1024px;   
+}
+
+.galeria img {
+    width: 142.5px;
+    height: 142.5px;
+    margin-right: 20px;
+    padding: 10px 0px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#imagengrande {
+    margin-top: 20px;
+}
+
+#imagenprincipal {
+    max-width: 1280px;
+    border-radius: 10px;
+    margin-top: 20px;
 }
