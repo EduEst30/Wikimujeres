@@ -50,16 +50,29 @@ p {
     background-color: #eb8282;
 }
 
-.columna-derecha img{
-   max-width: 100%; 
-}
-
 footer {
     background-color: rgb(193, 127, 255);
     color: #fff;
     padding: 10px;
     text-align: center;
 }
+/*Aquí va lo del marco teórico*/
+
+.columna-derecha-mar {
+    color: #fff;
+    padding: 20px;
+    background-color: #eb8282;
+}
+
+.columna-derecha-mar img{
+    width: 150px;
+    height: auto;
+}
+
+.columna-derecha img{
+   max-width: 100%; 
+}
+
 /*Aquí va la sección de la galería*/
 .galeria {
     display: inline;
