@@ -45,6 +45,13 @@ nav ul li{
    max-width: 100%; 
 }
 
+footer {
+    background-color: rgb(193, 127, 255);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+/*Aquí va la sección de la galería*/
 .galeria {
     display: inline;
 }
