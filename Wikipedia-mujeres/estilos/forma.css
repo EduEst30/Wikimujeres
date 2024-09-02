@@ -74,6 +74,7 @@ footer {
 .d-flex img {
     width: 150px;
     border-radius: 18px;
+    align-items: center;
 }
 
 h2 {
