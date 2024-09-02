@@ -50,6 +50,10 @@ p {
     background-color: #eb8282;
 }
 
+.columna-derecha img{
+    max-width: 100%; 
+ }
+
 footer {
     background-color: rgb(193, 127, 255);
     color: #fff;
@@ -57,10 +61,6 @@ footer {
     text-align: center;
 }
 /*Aquí va lo del marco teórico*/
-
-.columna-derecha img{
-   max-width: 100%; 
-}
 
 .d-flex{
     display: flex;
