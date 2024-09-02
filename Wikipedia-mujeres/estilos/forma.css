@@ -16,7 +16,12 @@ h1 {
    font-family: "Merriweather", serif;
 }
 
-h2,h3,h4 {
+h2 {
+    font-family: "Merriweather", serif;
+    text-align: center;
+}
+
+h3,h4 {
     font-family: "Merriweather", serif;
 }
 
