@@ -84,16 +84,12 @@ img,p, h3 {
 }
 
 /*Aquí va la sección de la galería*/
-.galeria {
-    display: inline;
-}
 
 .galeria img {
     width: 142.5px;
     height: 142.5px;
-    margin-left: 80px;
-    margin-right: 10px;
-    padding: 10px 0px;
+    margin-right: 0px;
+    padding: 5px;
     cursor: pointer;
     border-radius: 15%;
 }
