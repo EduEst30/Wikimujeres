@@ -109,3 +109,223 @@ img,p, h3 {
     width: 1024px;
     border-radius: 20px;
 }
+
+/* Estilo para las nuevas secciones */
+#entrevista, #evidencia-entrevista, #observaciones, #esquema, #cronograma, #lugares, #insights {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sombra sutil para dar profundidad */
+}
+
+/* Intercalar el fondo de las secciones */
+#entrevista:nth-child(odd), 
+#evidencia-entrevista:nth-child(odd), 
+#observaciones:nth-child(odd), 
+#esquema:nth-child(odd), 
+#cronograma:nth-child(odd), 
+#lugares:nth-child(odd), 
+#insights:nth-child(odd) {
+    background-color: #f7f7f7; /* Fondo claro para las secciones impares */
+}
+
+#entrevista:nth-child(even), 
+#evidencia-entrevista:nth-child(even), 
+#observaciones:nth-child(even), 
+#esquema:nth-child(even), 
+#cronograma:nth-child(even), 
+#lugares:nth-child(even), 
+#insights:nth-child(even) {
+    background-color: #e0e0e0; /* Fondo más oscuro para las secciones pares */
+}
+
+/* Estilo para la sección de entrevistas */
+#entrevista h1 {
+    text-align: center;
+    font-family: "Archivo Black", sans-serif;
+    color: rgb(193, 127, 255);
+    margin-bottom: 20px;
+}
+
+#entrevista .d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+#entrevista .info {
+    flex: 1 1 200px;
+    background-color: #ffffff;  /* Fondo blanco para la caja de información */
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#entrevista .info h2 {
+    font-family: "Merriweather", serif;
+    color: #333;
+    font-size: 18px;
+}
+
+#entrevista .info p {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Estilo para la sección de evidencia de entrevistas */
+#evidencia-entrevista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: left;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#evidencia-entrevista .text {
+    flex: 1 1 45%;  /* Ajuste para que el texto ocupe el 45% del espacio */
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #666;
+}
+
+#evidencia-entrevista .text h2 {
+    font-family: "Merriweather", serif;
+    color: rgb(193, 127, 255);
+    font-size: 16px;
+}
+
+#evidencia-entrevista img {
+    flex: 1 1 45%;  /* Ajuste para que la imagen ocupe el 45% del espacio */
+    max-width: 100%;
+    margin: 10px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para la sección de observaciones */
+#observaciones h2 {
+    font-family: "Archivo Black", sans-serif;
+    color: rgb(193, 127, 255);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#observaciones .d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+#observaciones .info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+    background-color: #ffffff;  /* Fondo blanco para la caja de información */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+#observaciones .info img {
+    width: 150px;  /* Tamaño fijo para las imágenes */
+    height: 150px; /* Tamaño fijo para las imágenes */
+    object-fit: cover; /* Asegura que las imágenes no se deformen */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-right: 15px;
+}
+
+#observaciones .info p {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #555;
+    width: 50%;  /* El texto ocupa la mitad del espacio */
+}
+
+/* Estilo para la sección del esquema */
+#esquema h1 {
+    font-family: "Archivo Black", sans-serif;
+    text-align: center;
+    color: rgb(193, 127, 255);
+}
+
+#esquema h2 {
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el cronograma */
+#cronograma h2 {
+    font-family: "Archivo Black", sans-serif;
+    text-align: center;
+    color: rgb(193, 127, 255);
+    margin-bottom: 20px;
+}
+
+#cronograma img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para la sección de lugares */
+#lugares h2 {
+    font-family: "Archivo Black", sans-serif;
+    color: rgb(193, 127, 255);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#lugares h3 {
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    color: #444;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Estilo para la sección de insights */
+#insights ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+#insights li {
+    background-color: #ffffff;  /* Fondo blanco para los elementos de la lista */
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#insights li:hover {
+    background-color: rgb(193, 127, 255);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+#insights li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Estilo del contenedor de imágenes en secciones */
+.d-flex img {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
