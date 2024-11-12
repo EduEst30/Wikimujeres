@@ -54,6 +54,12 @@ p {
     padding: 20px;
     background-color: #eb8282;
 }
+.columna-izquierda {
+    color: #fff;
+    flex: 1;
+    padding: 20px;
+    background-color: #eb8282;
+}
 
 .columna-derecha img{
     max-width: 100%;
@@ -295,6 +301,12 @@ img,p, h3 {
 }
 
 /* Estilo para la sección de insights */
+#insights h1 {
+    font-family: "Archivo Black", sans-serif;
+    color: rgb(193, 127, 255);
+    text-align: center;
+    margin-bottom: 15px;
+}
 #insights ul {
     list-style-type: none;
     padding: 0;
@@ -308,6 +320,7 @@ img,p, h3 {
     padding: 10px;
     margin-bottom: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: black
 }
 
 #insights li:hover {
@@ -317,6 +330,62 @@ img,p, h3 {
 }
 
 #insights li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Estilo para la sección de hallazgos */
+#hallazgos {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    flex-basis: initial;
+}
+
+#hallazgos h1 {
+    font-family: "Archivo Black", sans-serif;
+    color: rgb(193, 127, 255);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#hallazgos h2 {
+    font-family: "Archivo Black", sans-serif;
+    color: rgb(193, 127, 255);
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+#hallazgos h3 {
+    font-family: "Archivo Black", sans-serif;
+    color: rgb(193, 127, 255);
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+#hallazgos ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+#hallazgos li {
+    background-color: #ffffff;  /* Fondo blanco para los elementos de la lista */
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: black
+}
+
+#hallazgos li:hover {
+    background-color: rgb(193, 127, 255);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+#hallazgos li a {
     text-decoration: none;
     color: inherit;
 }
