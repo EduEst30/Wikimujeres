@@ -1,7 +1,8 @@
 /*Estilos para la wiki de mujeres*/
 
 header {
-    background-color: rgb(193, 127, 255);
+    background-color: #00bf63;
+    background-color: #f4bad9;
     color: #fff;
     padding: 20px 50px;
     text-align: center;
@@ -10,6 +11,14 @@ header {
 body {
     margin: 0;
     padding: 0;
+}
+
+footer {
+    background-color: #c4beed;
+    background-color: #f4bad9;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
 }
 
 h1 {
@@ -49,48 +58,71 @@ p {
 }
 
 .columna-derecha {
-    color: #fff;
+    color: #636363;
     flex: 1;
-    padding: 20px;
-    background-color: #eb8282;
+    padding: 20px 80px;
+    background-color: #8c52ff;
+    background-color: #cbe9a2;
+    text-align: center;
 }
+
+.columna-derecha h2 {
+    font-size: 36px;
+}
+
+.columna-derecha p {
+    padding: 0px 60px 0px;
+    font-size: 18px;
+}
+
 .columna-izquierda {
     color: #fff;
     flex: 1;
     padding: 20px;
-    background-color: #eb8282;
+    background-color: #c4beed;
 }
 
 .columna-derecha img{
     max-width: 100%;
     border-radius: 30px;
- }
-
-footer {
-    background-color: rgb(193, 127, 255);
-    color: #fff;
-    padding: 10px;
-    text-align: center;
 }
 /*Aquí va lo del marco teórico*/
 
+.columna-derecha-m {
+    color: #636363;
+    flex: 1;
+    padding: 20px 60px 30px;
+    background-color: #8c52ff;
+    background-color: #cbe9a2;
+    font-size: 18px;
+}
+
+.columna-derecha-m h2{
+    font-size: 36px;    
+}
+
+.columna-derecha-m h3{
+    font-size: 24px;    
+}
+
 .d-flex{
     display: flex;
+    padding-bottom: 30px;
 }
 
 .info{
     margin: 10px;
+    padding: 0px 30px;
+    text-align: justify;
 }
 
 .d-flex img {
     width: 150px;
     border-radius: 18px;
     align-items: center;
+    background-color: #fff;
 }
 
-h2 {
-    padding-left: 10px;
-}
 
 img,p, h3 {
     padding: 10px;
@@ -99,8 +131,8 @@ img,p, h3 {
 /*Aquí va la sección de la galería*/
 
 .galeria img {
-    width: 142.5px;
-    height: 142.5px;
+    width: 120px;
+    height: 120px;
     margin-right: 0px;
     padding: 5px;
     cursor: pointer;
@@ -112,73 +144,65 @@ img,p, h3 {
 }
 
 #imagenprincipal {
-    width: 1024px;
+    width: 600px;
     border-radius: 20px;
 }
 
 /* Estilo para las nuevas secciones */
-#entrevista, #evidencia-entrevista, #observaciones, #esquema, #cronograma, #lugares, #insights {
+#entrevista, #evidencia-entrevista, #observaciones, #esquema, #cronograma, #lugares {
     padding: 20px;
     margin: 20px auto;
     max-width: 1100px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sombra sutil para dar profundidad */
+    
 }
 
-/* Intercalar el fondo de las secciones */
-#entrevista:nth-child(odd), 
-#evidencia-entrevista:nth-child(odd), 
-#observaciones:nth-child(odd), 
-#esquema:nth-child(odd), 
-#cronograma:nth-child(odd), 
-#lugares:nth-child(odd), 
-#insights:nth-child(odd) {
-    background-color: #f7f7f7; /* Fondo claro para las secciones impares */
+.columna-derecha-ref {
+    color: #636363;
+    flex: 1;
+    padding: 20px;
+    background-color: #cbe9a2;
+    text-align: center;
 }
 
-#entrevista:nth-child(even), 
-#evidencia-entrevista:nth-child(even), 
-#observaciones:nth-child(even), 
-#esquema:nth-child(even), 
-#cronograma:nth-child(even), 
-#lugares:nth-child(even), 
-#insights:nth-child(even) {
-    background-color: #e0e0e0; /* Fondo más oscuro para las secciones pares */
+.columna-derecha-ref p {
+    text-align: center;
+    padding: 0px 120px;
+    font-size: 18px;
 }
+
+.columna-derecha-en {
+    background-color: #c4beed;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+#entrevista {
+    background-color: #fff;
+    padding: 0px 20px;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
 
 /* Estilo para la sección de entrevistas */
 #entrevista h1 {
     text-align: center;
-    font-family: "Archivo Black", sans-serif;
+    font-weight: 800;
+    font-size: 36px;
     color: rgb(193, 127, 255);
-    margin-bottom: 20px;
+    padding-top: 40px;
 }
 
-#entrevista .d-flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 20px;
-}
-
-#entrevista .info {
-    flex: 1 1 200px;
-    background-color: #ffffff;  /* Fondo blanco para la caja de información */
-    border-radius: 10px;
-    padding: 15px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-#entrevista .info h2 {
+#entrevista h2 {
     font-family: "Merriweather", serif;
     color: #333;
-    font-size: 18px;
+    font-size: 24px;
 }
 
-#entrevista .info p {
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    color: #666;
+#entrevista p {
+    padding: 0px 80px;
 }
 
 /* Estilo para la sección de evidencia de entrevistas */
@@ -187,78 +211,66 @@ img,p, h3 {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
-    text-align: left;
     border-radius: 10px;
     padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
 }
 
-#evidencia-entrevista .text {
-    flex: 1 1 45%;  /* Ajuste para que el texto ocupe el 45% del espacio */
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    color: #666;
-}
-
-#evidencia-entrevista .text h2 {
-    font-family: "Merriweather", serif;
+#evidencia-entrevista h1,
+#evidencia-entrevista h2 {
+    text-align: center;
     color: rgb(193, 127, 255);
-    font-size: 16px;
+    margin: auto; /* Asegura que estén centrados en el bloque */
+    padding: 10px 0px;
 }
 
 #evidencia-entrevista img {
     flex: 1 1 45%;  /* Ajuste para que la imagen ocupe el 45% del espacio */
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para la sección de observaciones */
+#observaciones {
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente si es necesario */
+    text-align: center; /* Asegura que el texto relacionado también esté centrado */
+    
+}
+
+#observaciones h2 {
+    color: rgb(193, 127, 255);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#observaciones img {
     max-width: 100%;
     margin: 10px 0;
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilo para la sección de observaciones */
-#observaciones h2 {
-    font-family: "Archivo Black", sans-serif;
-    color: rgb(193, 127, 255);
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-#observaciones .d-flex {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-between;
-}
-
-#observaciones .info {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: space-between;
-    background-color: #ffffff;  /* Fondo blanco para la caja de información */
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 100%;
-}
-
-#observaciones .info img {
-    width: 150px;  /* Tamaño fijo para las imágenes */
-    height: 150px; /* Tamaño fijo para las imágenes */
-    object-fit: cover; /* Asegura que las imágenes no se deformen */
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-right: 15px;
-}
-
-#observaciones .info p {
+#observaciones p {
     font-family: "Poppins", sans-serif;
-    font-size: 14px;
     color: #555;
-    width: 50%;  /* El texto ocupa la mitad del espacio */
+    text-align: justify;
+    padding: 0px 80px;
+
 }
 
 /* Estilo para la sección del esquema */
+#esquema {
+    background-color: #fff;
+}
+
 #esquema h1 {
-    font-family: "Archivo Black", sans-serif;
+    font-size: 36px;
     text-align: center;
     color: rgb(193, 127, 255);
 }
@@ -267,10 +279,15 @@ img,p, h3 {
     font-family: "Merriweather", serif;
     font-size: 16px;
     color: #333;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    padding: 0px 150px;
 }
 
 /* Estilo para el cronograma */
+#cronograma {
+    background-color: #fff;
+}
+
 #cronograma h2 {
     font-family: "Archivo Black", sans-serif;
     text-align: center;
@@ -285,6 +302,10 @@ img,p, h3 {
 }
 
 /* Estilo para la sección de lugares */
+#lugares {
+    background-color: #ffffff;
+}
+
 #lugares h2 {
     font-family: "Archivo Black", sans-serif;
     color: rgb(193, 127, 255);
@@ -301,8 +322,14 @@ img,p, h3 {
 }
 
 /* Estilo para la sección de insights */
+#insights {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    flex-basis: initial;
+}
+
 #insights h1 {
-    font-family: "Archivo Black", sans-serif;
     color: rgb(193, 127, 255);
     text-align: center;
     margin-bottom: 15px;
@@ -315,18 +342,20 @@ img,p, h3 {
 }
 
 #insights li {
-    background-color: #ffffff;  /* Fondo blanco para los elementos de la lista */
+    background-color: #cbe9a2;  /* Fondo blanco para los elementos de la lista */
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px 30px;
     margin-bottom: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    color: black
+    color: #636363;
+    text-align: justify;
 }
 
 #insights li:hover {
     background-color: rgb(193, 127, 255);
     color: white;
     transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
 }
 
 #insights li a {
@@ -343,21 +372,19 @@ img,p, h3 {
 }
 
 #hallazgos h1 {
-    font-family: "Archivo Black", sans-serif;
     color: rgb(193, 127, 255);
     text-align: center;
     margin-bottom: 15px;
+    font-weight: 700;
 }
 
 #hallazgos h2 {
-    font-family: "Archivo Black", sans-serif;
     color: rgb(193, 127, 255);
     text-align: left;
     margin-bottom: 15px;
 }
 
 #hallazgos h3 {
-    font-family: "Archivo Black", sans-serif;
     color: rgb(193, 127, 255);
     text-align: left;
     margin-bottom: 15px;
@@ -371,18 +398,19 @@ img,p, h3 {
 }
 
 #hallazgos li {
-    background-color: #ffffff;  /* Fondo blanco para los elementos de la lista */
+    background-color: #cbe9a2;  /* Fondo blanco para los elementos de la lista */
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px 30px;
     margin-bottom: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    color: black
+    color: #636363
 }
 
 #hallazgos li:hover {
     background-color: rgb(193, 127, 255);
     color: white;
     transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
 }
 
 #hallazgos li a {
