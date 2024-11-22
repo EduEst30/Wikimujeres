@@ -8,6 +8,10 @@ header {
     text-align: center;
 }
 
+header h1 {
+    font-size: 36px;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -40,7 +44,7 @@ nav ul li {
     padding: 0px 30px;
     margin: 0;
     font-family: "Merriweather", serif;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 nav ul li a {
@@ -250,6 +254,7 @@ img,p, h3 {
 }
 
 #observaciones img {
+    flex: 1 1 45%;  /* Ajuste para que la imagen ocupe el 45% del espacio */
     max-width: 100%;
     margin: 10px 0;
     border-radius: 15px;
@@ -289,10 +294,10 @@ img,p, h3 {
 }
 
 #cronograma h2 {
-    font-family: "Archivo Black", sans-serif;
     text-align: center;
     color: rgb(193, 127, 255);
     margin-bottom: 20px;
+    font-size: 36px;
 }
 
 #cronograma img {
@@ -307,10 +312,10 @@ img,p, h3 {
 }
 
 #lugares h2 {
-    font-family: "Archivo Black", sans-serif;
     color: rgb(193, 127, 255);
     text-align: center;
     margin-bottom: 15px;
+    font-size: 36px;
 }
 
 #lugares h3 {
@@ -333,6 +338,7 @@ img,p, h3 {
     color: rgb(193, 127, 255);
     text-align: center;
     margin-bottom: 15px;
+    font-size: 36px;
 }
 #insights ul {
     list-style-type: none;
@@ -375,19 +381,21 @@ img,p, h3 {
     color: rgb(193, 127, 255);
     text-align: center;
     margin-bottom: 15px;
-    font-weight: 700;
+    font-size: 36px;
 }
 
 #hallazgos h2 {
     color: rgb(193, 127, 255);
     text-align: left;
     margin-bottom: 15px;
+    font-size: 24px;
 }
 
 #hallazgos h3 {
     color: rgb(193, 127, 255);
     text-align: left;
     margin-bottom: 15px;
+    font-size: 18px;
 }
 
 #hallazgos ul {
