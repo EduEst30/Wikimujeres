@@ -86,6 +86,13 @@ p {
     background-color: #c4beed;
 }
 
+.columna-izquierda img{
+    max-width: 100%;
+    border-radius: 20px;
+    padding: 0px 0px;
+    margin-bottom: 10px;
+}
+
 .columna-derecha img{
     max-width: 100%;
     border-radius: 20px;
@@ -332,6 +339,7 @@ img,p, h3 {
     padding: 20px;
     border-radius: 15px;
     flex-basis: initial;
+    margin-bottom: 10px;
 }
 
 #insights h1 {
